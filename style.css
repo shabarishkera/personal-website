@@ -1,0 +1,67 @@
+*
+{
+margin: 0;
+border: 0;
+box-sizing: border-box;
+outline:  1px red solid;
+scroll-behavior: smooth;
+}
+body
+{
+margin-left:10%;
+margin-right:10%;
+font-family:monospace;
+scroll-behavior: smooth;
+}
+li,a{
+display: inline;
+text-decoration: none;
+color:white;
+font-size:26px;
+}
+header
+{
+position:sticky;
+top:0;
+}
+nav
+{
+display:flex;
+justify-content: center;
+min-height: 44px;
+background-color: grey;
+color: white;
+
+}
+img
+{
+min-height: 400px;
+max-height:700px;
+width:auto;
+
+}
+header
+{
+height: auto;
+}
+#about,#contact,#skills,#developer
+{
+min-height: 440px;
+margin: 0px;
+}
+h2
+{
+font-size: 44px;
+display: block;
+}
+figure
+{
+  overflow: hidden;
+}
+#developer
+{
+background-color:darkgrey;
+height: 200px;
+
+
+}
