@@ -3,15 +3,20 @@
 margin: 0;
 border: 0;
 box-sizing: border-box;
-outline:  1px red solid;
+outl ine:  1px red solid;
 scroll-behavior: smooth;
+}
+html{
+background-color:#FFFDD0;
+
 }
 body
 {
-margin-left:10%;
-margin-right:10%;
+margin-left:20%;
+margin-right:20%;
 font-family:monospace;
 scroll-behavior: smooth;
+background-color: white;
 }
 li,a{
 display: inline;
@@ -23,6 +28,7 @@ header
 {
 position:sticky;
 top:0;
+z-index: 10;
 }
 nav
 {
@@ -37,22 +43,27 @@ img
 {
 min-height: 400px;
 max-height:700px;
-width:auto;
+width:100%;
 
 }
 header
 {
 height: auto;
 }
-#about,#contact,#skills,#developer
+#about,#contact,#skills
 {
 min-height: 440px;
 margin: 0px;
+
 }
 h2
 {
 font-size: 44px;
 display: block;
+background: darkgrey;
+color: white;
+text-transform:uppercase;
+max-height: 70px;
 }
 figure
 {
@@ -61,7 +72,36 @@ figure
 #developer
 {
 background-color:darkgrey;
-height: 200px;
+height:80px;
+display: flex;
+text-align:center;
+justify-content: center;
+}
+svg
+{
+margin:2rem;
 
 
 }
+#profileImage
+{
+height: 300px;
+width: 300px;
+border-radius: 50%;
+display: inline;
+background-color: white;
+position: relative;
+top:-320px;
+
+margin: 0;
+display:none;
+}
+@media screen and (min-width:1000px) {
+
+    #profileImage
+  {
+display: inline;
+
+  }
+}
+/*  work on the profile pictre tag !!!!*/
